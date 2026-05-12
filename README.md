@@ -23,7 +23,21 @@
 - GitHub Codespaces、または Python 3.12 が動くローカル環境
 - 講師から配布される一時的な `OPENAI_CHAT_*` 設定値
 
-## クイックスタート
+## はじめ方
+
+迷ったら、まず Workshop Guide の `Begin Here` から進めてください。
+
+[![Workshop Guide](https://img.shields.io/badge/Workshop_Guide-Begin_Here-0F6CBD?style=for-the-badge)](docs/index.md)
+[![Fork this repository](https://img.shields.io/badge/Fork-this%20repository-181717?style=for-the-badge&logo=github)](https://github.com/mrmo-sandbox/pyrit-red-teaming-handson/fork)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/mrmo-sandbox/pyrit-red-teaming-handson?quickstart=1)
+
+おすすめの進め方は次の通りです。
+
+1. [このリポジトリを Fork](https://github.com/mrmo-sandbox/pyrit-red-teaming-handson/fork) して、自分用のコピーを作ります。
+2. Fork したリポジトリを GitHub Codespaces で開きます。
+3. [Workshop Guide](docs/index.md) を開き、`Begin Here` のセットアップ手順に沿って進めます。
+
+## ローカルで動かす場合
 
 ```bash
 cp .env.sample .env
@@ -39,7 +53,7 @@ OPENAI_CHAT_KEY="YOUR_TEMPORARY_KEY"
 OPENAI_CHAT_MODEL="YOUR_MODEL_OR_DEPLOYMENT"
 ```
 
-その後、ブラウザーで表示された Workshop Guide を開き、`Begin Here` から進めてください。
+その後、ブラウザーで表示された Workshop Guide を開き、`Begin Here` から進めてください。詳細は [Setup](docs/begin-here/00-setup.md) を参照してください。
 
 ## Labs
 
@@ -55,4 +69,3 @@ OPENAI_CHAT_MODEL="YOUR_MODEL_OR_DEPLOYMENT"
 - 共有キーはイベント専用、短時間有効、低クォータにしてください。
 - 終了後は必ずキーをローテーションまたは無効化してください。
 - 本教材は安全な架空シナリオだけを扱います。実在システムや許可されていない対象へのテストには使わないでください。
-
