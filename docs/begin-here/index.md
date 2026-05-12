@@ -8,6 +8,12 @@
 - GitHub Codespaces または Python 3.12 が動く環境
 - 講師から共有される一時的な接続情報
 
+## 最初にやること
+
+まず [Setup](00-setup.md) を開き、Fork、Codespaces、`.env` の作成まで順番に進めてください。
+
+[Setup を開く](00-setup.md){ .md-button .md-button--primary }
+
 ## 接続情報
 
 講師から以下の値を受け取ります。
@@ -20,4 +26,3 @@
 
 !!! warning "キーの扱い"
     API キーをチャット、Issue、公開リポジトリへ貼り付けないでください。ハンズオン後は講師側で無効化される前提です。
-

@@ -5,6 +5,13 @@
 !!! important "この教材の前提"
     参加者は Azure アカウントを使いません。講師が一時的な OpenAI 互換エンドポイント、API キー、モデル名またはデプロイ名を配布します。
 
+## まず始める
+
+環境準備から進める場合は Setup を開いてください。Codespaces で進める場合は、Setup 内のボタンからすぐに開始できます。
+
+[Setup を開く](begin-here/00-setup.md){ .md-button .md-button--primary }
+[Labs を見る](labs/index.md){ .md-button }
+
 ## このハンズオンで学ぶこと
 
 - AI Red Teaming が何を確認する活動なのか
@@ -38,4 +45,3 @@ flowchart LR
 - Azure Portal での確認
 - 本番環境や実在サービスへの攻撃
 - 実害のある内容を引き出すテスト
-
