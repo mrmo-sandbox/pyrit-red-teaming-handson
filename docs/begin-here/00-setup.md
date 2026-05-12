@@ -53,5 +53,8 @@ mkdocs serve
 
 VS Code の Explorer から `labs/` フォルダーを開き、`0-validate-endpoint.ipynb` から順番に実行します。
 
+!!! note "Notebook として開けない場合"
+    VS Code で `jupyter-notebook` のリソースを開けないと表示される場合は、`ms-toolsai.jupyter` 拡張機能が有効になっているか確認してください。Codespaces では `.devcontainer/devcontainer.json` から自動インストールされます。
+
 !!! tip "Notebook の実行"
     Kernel は `Python (PyRIT Hands-on)` または Python 3.12 の環境を選択します。
