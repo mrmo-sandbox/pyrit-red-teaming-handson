@@ -5,12 +5,14 @@
 ## 必要なもの
 
 - GitHub アカウント
-- GitHub Codespaces または Python 3.12 が動く環境
+- GitHub Codespaces
 - 講師から共有される一時的な接続情報
 
 ## 最初にやること
 
-まず [Setup](00-setup.md) を開き、Fork、Codespaces、`.env` の作成まで順番に進めてください。
+まず README の「はじめ方」に沿って、リポジトリの Fork、Codespaces の起動、`mkdocs serve` の実行まで進めてください。
+
+Workshop Guide を開けたら、[Setup](00-setup.md) で `.env` の設定と Notebook の開き方を確認します。
 
 [Setup を開く](00-setup.md){ .md-button .md-button--primary }
 
