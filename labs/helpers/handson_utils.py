@@ -6,10 +6,17 @@ from typing import Iterable
 
 from dotenv import load_dotenv
 from openai import OpenAI
+from pyrit.common.apply_defaults import reset_default_values
+from pyrit.memory import CentralMemory, SQLiteMemory
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
 ENV_PATH = ROOT_DIR / ".env"
 REQUIRED_ENV = ("OPENAI_CHAT_ENDPOINT", "OPENAI_CHAT_KEY", "OPENAI_CHAT_MODEL")
+
+
+def initialize_pyrit_in_memory() -> None:
+    reset_default_values()
+    CentralMemory.set_memory_instance(SQLiteMemory(db_path=":memory:"))
 
 
 def load_handson_env() -> dict[str, str]:
